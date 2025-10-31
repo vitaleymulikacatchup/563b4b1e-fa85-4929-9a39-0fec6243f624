@@ -40,7 +40,7 @@ export default function Page() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Authentic Flavors, Memorable Moments"
+          title="Authentic"
           description="Experience culinary excellence at Mecho, where traditional recipes meet modern presentation in an atmosphere of warmth and sophistication."
           tag="Fine Dining"
           tagIcon={Utensils}
