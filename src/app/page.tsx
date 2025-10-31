@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -12,9 +12,9 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Calendar, Chef, Crown, Gift, HelpCircle, Heart, Home, Leaf, MessageCircle, Star, UtensilsCrossed, Utensils, Users } from "lucide-react";
+import { Calendar, ChefHat, Crown, Gift, HelpCircle, Heart, Home, Leaf, MessageCircle, Star, UtensilsCrossed, Utensils, Users } from "lucide-react";
 
-export default function Home() {
+export default function Page() {
   return (
     <ThemeProvider
       defaultButtonVariant="slide-background"
@@ -69,7 +69,7 @@ export default function Home() {
             {
               title: "Master Chefs",
               description: "Trained in classical techniques with creative flair",
-              icon: Chef
+              icon: ChefHat
             },
             {
               title: "Warm Atmosphere",
